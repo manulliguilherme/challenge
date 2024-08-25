@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Decodificador </title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <img class="logo__alura" src="./image/logo-alura.png" alt=" Logo Alura" >
+        <h3 class="cabecalho"> <strong> Challenge Decodificador de Texto </strong> </h3> 
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text__area" cols="41" rows="4" placeholder="Digite o seu texto..."></textarea>
+            <div class="informacao">
+                <h6>Apenas digite letra minúsculas e sem acentos.</h6>
+            </div>
+
+            <div class="botoes">
+                <button class="botao__criptografar" onclick = "botaoEncriptar()"> Criptografar </button>
+                <button class="botao__descriptografar" onclick = "botaoDesencriptar()"> Descriptografar </button>
+            </div>
+        </section>
+
+        <section>
+            <div class="mensagem__container">
+                <textarea class="mensagem" cols="20" rows="10"> </textarea>
+             <button class="botao__copiar" onclick="botaoCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p> <strong> Desenvolvido por Manulli Guilherme </strong></p>
+    </footer>
+    <script src="script.js"> </script>
+</body>
+</html>
